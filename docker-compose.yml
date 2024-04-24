@@ -11,7 +11,7 @@ services:
           - exemplo.lan
           - www.exemplo.lan
           - eq1.exemplo.lan      
-           
+          - web2.exemplo.lan
     volumes:
       - ./exemplo.lan/:/opt/web/exemplo.lan/
       - ./apache/tarefa2.conf:/etc/apache2/sites-enabled/apache2.conf
