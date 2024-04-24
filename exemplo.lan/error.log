@@ -1,0 +1,1 @@
+[Thu Apr 18 11:36:41.760334 2024] [core:alert] [pid 9:tid 139868044203712] [client 192.168.46.1:58014] /opt/web/exemplo.lan/htdocs/50/.htaccess: Invalid command 'DirectoryIndexaa', perhaps misspelled or defined by a module not included in the server configuration
