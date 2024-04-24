@@ -26,16 +26,6 @@ services:
     networks:
       my_network:    
         ipv4_address: 192.168.46.100
-  cliente2:
-    hostname: cliente2  
-    build: cliente
-    environment:
-    - DISPLAY=${DISPLAY}
-    volumes:
-    - /tmp/.X11-unix:/tmp/.X11-unix    
-    networks:
-      my_network:        
-        ipv4_address: 192.168.46.250
 
 
 networks:
